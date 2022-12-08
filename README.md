@@ -63,8 +63,7 @@ This is based on the above folder structure example
 from torch.utils.data import DataLoader
 from revide_dataset import RevideDataset
 
-revide_dataset=RevideDataset(train_directory='Train', 
-                             test_directory='Test', 
+revide_dataset=RevideDataset(train_directory='Train', test_directory='Test', 
                              clear_folder='clear', 
                              hazy_folder='hazy')
 loader=DataLoader(
